@@ -1,0 +1,101 @@
+
+  /* CARDS */
+  .card {
+    background: #222;
+    border: 1px solid #0d6efd;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  
+  .card-body .btn {
+    border: 3px solid;
+    color: #0d6efd;
+  }
+  
+  .card-body .btn:hover, .card-body .btn:focus {
+    background-clip: none;
+    border: 3px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    color:#fff !important;
+    text-decoration: underline;
+  }
+  
+  .card-body .btn:hover:last-child, .card-body .btn:focus:last-child {
+    background-clip: none;
+    border: 3px solid #7a12f0 !important; 
+    box-shadow: #222 1px 0 10px;
+    color:#7a12f0 !important;
+    text-decoration: underline;
+  }
+  .card-img-top{
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body .btn:hover[class="badge btn btn-light position-relative"], .card-body .btn:focus[class="badge btn btn-light position-relative"] {
+    background-clip: none;
+    border: 3px solid #dc3545 !important; 
+    box-shadow: #222 1px 0 10px;
+    color:#dc3545 !important;
+    text-decoration: none;
+  }
+  
+  
+  /* FORMULARIO */
+  .contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 0.5rem;
+  }
+  .contact-form .form-control{
+    border-radius:1rem;
+  }
+  .contact-image{
+    text-align: center;
+  }
+  .contact-image img{
+    border-radius: 5rem;
+    width: 12%;
+    margin-top: -3%;
+    background-color: #0062cc;
+  }
+  .contact-form form{
+    padding: 14%;
+  }
+  .contact-form form .row{
+    margin-bottom: -7%;
+  }
+  .contact-form h2{
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+  }
+  .contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #1a62fd;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btnContactSubmit
+  {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+  }
+  textarea{
+    min-height: 150px !important;
+    max-height: 250px;
+  }

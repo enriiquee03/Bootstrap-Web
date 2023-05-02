@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./recursos/realmadrid-logo.png" type="image/x-icon">
+    
+    
+</head>
+<body>
+<!-- Encabezado -->
+    <header class="mb-5 mx-auto sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid d-flex">
+            <img class="me-2" src="./recursos/realmadrid-logo.png" alt="" width="30" height="30">
+            <a href="#" class="navbar-brand text-primary"><strong>Real Madrid FC</strong></a>
+            <button type="button" class="navbar-toggler bg-primary" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <div class="navbar-nav ">
+                  <a class="nav-link mx-2 text-uppercase text-primary" aria-current="page" href="./index.html">INICIO</a>
+                  <a class="nav-link mx-2 text-uppercase text-primary" href="./entradas.html">ENTRADAS</a>
+                  <a class="nav-link mx-2 text-uppercase text-primary" href="./socios.html">SOCIOS</a>
+                  <a class="nav-link mx-2 text-uppercase text-primary" href="./aficion.html">AFICIÓN</a>
+                    <div class="nav-item dropdown">
+                      <a href="#" class="nav-link mx-2 text-uppercase dropdown-toggle text-primary" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropdown-menu">ESTADIO</a>
+                        <div class="dropdown-menu">
+                          <a href="./imgestadio.html" class="dropdown-item text-primary">IMAGENES DEL ESTADIO</a>
+                          <a href="./estadio_historia.html" class="dropdown-item text-primary">HISTORIA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse" style="max-width: fit-content;">
+            <form>
+              <div class="input-group">             
+                  <input type="text" class="form-control" placeholder="Buscar">
+                  <button type="button" class="btn btn-secondary bg-primary"><i class="bi-search"></i></button>
+                </div>  
+              </div>
+          </form>
+        </div>
+        </div>
+    </nav>
+      
+    </header>
+
+<!-- Conteneido principal -->
+  <main>
+    <!-- Carousel -->
+      <header>
+      <div class="container-lg my-3 mb-5">
+        <div id="realmadrid_carousel" class="carousel slide " data-interval="60000" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#realmadrid_carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#realmadrid_carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#realmadrid_carousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#realmadrid_carousel" data-bs-slide-to="3"></li>
+                <li data-bs-target="#realmadrid_carousel" data-bs-slide-to="4"></li>
+            </ol>
+            
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./recursos/carousel1.webp" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./recursos/carousel2.webp" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./recursos/carousel3.jfif" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="./recursos/carousel4.jpg" class="d-block w-100" alt="Slide 4">
+                </div>
+                <div class="carousel-item">
+                  <img src="./recursos/carousel5.jpg" class="d-block w-100" alt="Slide 7">
+                </div>
+            </div>
+    
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#realmadrid_carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#realmadrid_carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+      </div>
+      </header>
+
+      <!-- Cards -->
+      <article>
+      <div class="container mx-auto my-4">
+        <h1 class="fw-light text-center text-lg-start mt-4 mb-0 display-1 text">Real Madrid</h1>
+        <hr class="mt-2 mb-3">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card">
+              <img src="./cardsimage/card1.jpg"class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-2 gap-4">
+                <h5 class="card-title justify-content-center align-items-center">Lorem, ipsum.</h5>
+                <button type="button" class="badge btn btn-light position-relative" onclick="location.href='https://www.marca.com/futbol/real-madrid.html'">
+                  NEW
+                  <span class=" position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </button>
+                </div>
+                    <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+                   <a href="#" class="btn mr-2 active"><i class="fas fa-link"></i>Button</a>
+                <a href="#" class="btn "><i class="fab fa-github"></i> Button2</a>
+              </div>
+              </div>
+          </div>    
+          <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card">
+        <img src="./cardsimage/card2.webp"class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-2 gap-4">
+          <h5 class="card-title justify-content-center align-items-center">Lorem, ipsum.</h5>
+          <button type="button" class="badge btn btn-light position-relative" onclick="location.href='https://www.marca.com/futbol/real-madrid.html'">
+            NEW
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+          </div>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+             <a href="#" class="btn mr-2 active"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn "><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+          </div>    
+          <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card">
+        <img src="cardsimage/card3.webp" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-2 gap-4">
+          <h5 class="card-title justify-content-center align-items-center">Lorem, ipsum.</h5>
+          <button type="button" class="badge btn btn-light position-relative" onclick="location.href='https://www.marca.com/futbol/real-madrid.html'">
+            NEW
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+          </div>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+             <a href="#" class="btn mr-2 active"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn "><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+        </div>
+          
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card">
+        <img src="cardsimage/card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-2 gap-4">
+          <h5 class="card-title justify-content-center align-items-center">Lorem, ipsum.</h5>
+          <button type="button" class="badge btn btn-light position-relative" onclick="location.href='https://www.marca.com/futbol/real-madrid.html'">
+            NEW
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+          </div>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+             <a href="#" class="btn mr-2 active"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn "><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+          </div>    
+          <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card">
+        <img src="cardsimage/card5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn"><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+          </div>    
+          <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card">
+        <img src="cardsimage/card6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn"><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+        </div>
+          
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card">
+        <img src="cardsimage/card7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+             <a href="#" class="btn mr-2"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn"><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+          </div>    
+          <div class="col-12 col-sm-6 col-lg-3">
+      <div class="card">
+        <img src="cardsimage/card8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum.</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Lorem, ipsum dolor.</h6>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni praesentium, eligendi veritatis pariatur illo tenetur?</p>
+          <a href="#" class="btn mr-2"><i class="fas fa-link"></i>Button</a>
+          <a href="#" class="btn"><i class="fab fa-github"></i> Button2</a>
+        </div>
+        </div>
+          </div>    
+      </div>
+      </div>
+      </article>
+
+      <!-- FORMUARIO -->
+      <article>
+      <div class="container contact-form">
+        <div class="contact-image">
+            <img src="./recursos/realmadrid-logo.png" alt="">
+        </div>
+        <form method="post">
+            <h2>Contacto</h2>
+           <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-floating mb-4 me-4">
+                        <input type="text" name="txtName" class="form-control" placeholder="Introduce el Nombre" value="" />
+                        <label for="comment">Nombre</label>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-floating mb-4 me-4">
+                    <input type="email" name="txtEmail" class="form-control" placeholder="Introduce el Correo" value="" />
+                    <label for="comment">Correo</label>
+                </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-floating mb-4 me-4">
+                        <textarea name="txtMsg" class="form-control" placeholder="Inroduce el Mensaje" style="width: 100%; height: 150px;"></textarea>
+                        <label for="comment">Mensaje</label>
+                      </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-floating d-flex justify-content-center">
+                    <input  type="submit" name="btnSubmit" class="btnContact" value="Enviar Mensaje" />
+                </div>
+              </div>
+            </div>
+        </form>
+      </div>
+      </article>
+  </main>
+
+<!-- Pie de pagina -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Contenedor-->
+    <div class="container p-1 pb-0 text-white">
+      <h5>REDES SOCIALES</h5>
+      <!-- Section: Social media -->
+      <section class="social mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating me-3"
+          style="background-color: #3b5998;"
+          href="https://www.facebook.com/RealMadrid/"
+          role="button"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><i class="bi bi-facebook"></i>
+      </a>
+
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating me-3"
+          style="background-color: #55acee;"
+          href="https://twitter.com/realmadrid?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          role="button"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><i class="bi bi-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating me-3"
+          style="background-color: #dd4b39;"
+          href="https://www.realmadrid.com/"
+          role="button"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><i class="bi bi-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating me-3"
+          style="background-color: #ac2bac;"
+          href="https://www.instagram.com/realmadrid/"
+          role="button"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><i class="bi bi-instagram"></i>
+        </a>
+
+      </section>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="#">Enrique Web</a>
+    </div>
+  </footer>
+      
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

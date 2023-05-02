@@ -1,0 +1,29 @@
+.historia{
+    width: 100%;
+    height: auto;
+}
+main{
+    padding: 4rem 19rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+h2{
+    margin-bottom: 2rem;
+}
+
+/* Texto Responsive */
+@media screen and (max-width:1200px) {
+    main{
+        padding: 4rem 15rem;
+    }
+}
+@media screen and (max-width:800px) {
+    main{
+        padding: 4rem 10rem;
+    }
+}
+@media screen and (min-width:100px) {
+    main{
+        padding: 4rem 3rem;
+    }
+}
